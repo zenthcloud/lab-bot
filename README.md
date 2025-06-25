@@ -51,8 +51,8 @@ The **Zenth Lab Discord Bot** is an open-source command-driven assistant that al
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/zenthcloud/zenth-lab-discord-bot.git
-cd zenth-lab-discord-bot
+git clone https://github.com/zenthcloud/lab-bot.git
+cd lab-bot
 ````
 
 2. Set up your environment variables:
