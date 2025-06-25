@@ -1,0 +1,31 @@
+{
+  "name": "lab-bot",
+  "version": "1.0.0",
+  "description": "The **Zenth Lab Discord Bot** is an open-source command-driven assistant that allows users to deploy, manage, and interact with cybersecurity and cloud labs directly from Discord. It integrates with the Zenth Cloud infrastructure to provision ephemeral, secure lab environments for training, pentesting, or academic purposes.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenthcloud/lab-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenthcloud/lab-bot/issues"
+  },
+  "homepage": "https://github.com/zenthcloud/lab-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
